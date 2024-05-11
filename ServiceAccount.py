@@ -116,7 +116,7 @@ def insert_service_account_details_into_database(account_list):
         connection.close()
 
     except Exception as e:
-        raise Exception(f"Error inserting data into RDS: {str(e)}")  
+        print(f"Error inserting data into RDS: {str(e)}")  
     
 # Call function to fetch service account details
 if __name__=="__main__":
