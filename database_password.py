@@ -9,9 +9,6 @@ def get_secret_from_vault():
     # Initialize the VaultClient with the signer
     vault_client = oci.secrets.SecretsClient({}, signer=signer)
 
-    # Set the compartment OCID where the secret is stored
-    compartment_id = 'ocid1.compartment.oc1..aaaaaaaa7nxivmvn7wff2j4azbwncx4ywnmfuhx4eugo55huwwuozxysdw4a'
-
     # Set the secret OCID
     secret_id = 'ocid1.vaultsecret.oc1.ap-mumbai-1.amaaaaaabfgevmaa43hybdoxsdmbyvzma2stffounarrvh4ytquye26bxtcq'
 
