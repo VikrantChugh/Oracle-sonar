@@ -109,7 +109,7 @@ def insert_service_account_details_into_database(account_list):
                 
             except pymysql.Error as e:
                 print(f"Error: {e}")
-        print(f"Data INSERT INTO cmdb_ci_cloud_service_account is successful")
+        print(Data INSERT INTO cmdb_ci_cloud_service_account is successful)
 
         connection.commit()
 
